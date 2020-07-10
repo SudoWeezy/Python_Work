@@ -1,0 +1,110 @@
+max : 480
+step : [ 8.]
+low_trigger : [ 31.]
+high_trigger : [ 85.]
+period : 867.61210396
+max : 900
+step : [ 11.  12.  13.  14.  15.  16.]
+low_trigger : [ 40.  41.  42.  43.  44.]
+high_trigger : [ 85.  86.  87.]
+period : 367.579542134
+max : 900
+step : [ 6.]
+low_trigger : [ 33.  34.  35.]
+high_trigger : [ 77.  78.]
+period : 102.578759948
+max : 900
+step : [  9.  10.  11.  12.  13.  15.]
+low_trigger : [ 33.  34.  35.  36.  37.  38.  39.  40.  41.  42.  43.]
+high_trigger : [ 77.  78.  79.  80.  81.  82.  83.  84.  85.  86.  87.  88.  89.  90.  91.
+  92.  93.  94.]
+period : 104.327007628
+max : 900
+step : [  6.   7.   8.   9.  10.  11.  12.  13.  14.  15.]
+low_trigger : [ 33.  34.  35.  36.  37.  38.  39.  40.  41.  42.  43.  44.  45.  46.  47.
+  48.  49.]
+high_trigger : [ 77.  78.  79.  80.  81.  82.  83.  84.  85.  86.  87.  88.  89.  90.  91.
+  92.  93.  94.]
+period : 102.432152207
+max : 900
+step : [ 6.]
+low_trigger : [ 33.  34.  35.  36.  37.  38.]
+high_trigger : [ 77.]
+period : 103.370689659
+max : 900
+step : [  8.   9.  10.  11.  12.  13.  14.  15.]
+low_trigger : [ 33.  34.  35.  36.  37.  38.  39.  40.  41.  42.  43.  44.  45.  46.  47.
+  48.  49.]
+high_trigger : [ 77.  78.  79.  80.  81.  82.  83.  84.  85.  86.  87.  88.  89.  90.  91.
+  92.  93.  94.]
+period : 102.578759948
+max : 900
+step : [ 10.  14.]
+low_trigger : [ 34.  35.  37.  38.  39.  40.  41.  42.]
+high_trigger : [ 75.  76.  80.  81.  82.  83.]
+period : 103.125081977
+max : 900
+step : [ 7.]
+low_trigger : [ 33.  34.  35.  36.  37.  38.  39.  40.  41.]
+high_trigger : [ 75.  76.  77.]
+ConnectionError: HTTPSConnectionPool(host='poloniex.com', port=443)period : 102.578759948
+max : 900
+step : [ 10.  14.]
+low_trigger : [ 37.  38.  39.  40.  41.  42.]
+high_trigger : [ 75.  76.  80.  81.  82.]
+period : 101.953966274
+max : 900
+step : [ 5.]
+low_trigger : [ 33.]
+high_trigger : [ 75.  76.]
+period : 168.297549378
+max : 300
+step : [ 12.]
+low_trigger : [ 33.]
+high_trigger : [ 67.]
+period : 181.995394312
+max : 900
+step : [ 13.]
+low_trigger : [ 40.]
+high_trigger : [ 64.]
+period : 729.750140287
+max : 900
+step : [ 11.  12.  13.  16.  17.  18.  19.]
+low_trigger : [ 31.  32.  33.  34.  35.  36.  44.  45.  46.]
+high_trigger : [ 80.  81.  84.  85.]
+period : 713.035426915
+max : 900
+step : [ 11.]
+low_trigger : [ 43.  45.  46.]
+high_trigger : [ 80.  81.  84.]
+period : 389.921027629
+max : 900
+step : [ 10.]
+low_trigger : [ 34.]
+high_trigger : [ 80.]
+period : 729.750140287
+max : 900
+step : [ 12.  13.  14.  16.  17.]
+low_trigger : [ 46.]
+high_trigger : [ 85.]
+period : 729.750140287
+max : 900
+step : [ 13.]
+low_trigger : [ 46.]
+high_trigger : [ 85.]
+period : 730.744105573
+max : 900
+step : [  6.   7.   8.   9.  12.  13.  14.  15.  16.]
+low_trigger : [ 29.  30.  32.  33.  34.  35.  36.  37.  38.  39.]
+high_trigger : [ 85.  86.  87.  88.  89.]
+period : 900
+max : 133.240744869
+step : [ 8.]
+low_trigger : [ 34.  35.]
+high_trigger : [ 70.  71.  72.  73.  74.  75.  76.  77.  78.  79.  80.  81.  82.  83.  84.
+  85.  86.  87.  88.  89.]
+period : 900
+max : 100.0
+step : [  9.  10.]
+low_trigger : [ 23.  24.  25.  26.]
+high_trigger : [ 74.  75.  76.  77.  78.  79.  80.  81.  82.  83.]
