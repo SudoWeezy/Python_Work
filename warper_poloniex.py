@@ -120,3 +120,4 @@ class Poloniex_Warper: # Warper link
         sign = bytearray(api_sign, "utf8")
         self.headers = {'Key': api_key, 'Sign': sign}
 
+

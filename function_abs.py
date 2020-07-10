@@ -34,14 +34,15 @@ class MyTimer:
 
 class callauto(MyTimer):
     def __init__(self, listcpair, listmax, listlvl, textsign, textkey):
+        print("mode auto")
         self.sign = textsign.get()
         self.key = textkey.get()
         self.lvl = listlvl.get(0, "end")
-        MyTimer.__init__(self, 5.0, self.runauto,[listcpair, listmax, listlvl])
+        MyTimer.__init__(self, 20.0, self.runauto,[listcpair, listmax, listlvl])
 
     def runauto(self, listcpair, listmax, listlvl):
         try:
-
+            print(datetime.datetime.now())
             lenc = range(len(listmax.get(0, "end")))
             for i in lenc:
                 period = 300
@@ -73,7 +74,7 @@ class callauto(MyTimer):
                     refbal = float(balance[ref])
                     for k in range(len(openorder)):
                         ordertocancel = float(pd.DataFrame(openorder)["orderNumber"][k])
-                        if float(pd.DataFrame(openorder)["type"][k]) == "buy":
+                        if pd.DataFrame(openorder)["type"][k] == "buy":
                             api.send_keys(self.key, self.sign)
                             api.set_command("cancelOrder", "orderNumber", ordertocancel)
                             response = api.call_private_api()
@@ -130,7 +131,7 @@ def gotof4(listbox1, listbox2, listbox3, listbox41, listbox42, label4, label41, 
     api.set_command("returnBalances")
     data = api.call_private_api()
     balance = data
-    fnext.grid(row=2, column=2)
+    fnext.grid(row=1, column=2)
     index = listbox1.curselection()
     text = listbox1.get(index)
     label44.config(text=text)
