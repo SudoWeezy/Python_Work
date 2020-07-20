@@ -13,10 +13,6 @@ fiblvllow = [0.789, 0.618, 0.5, 0.382, 0.236]
 fiblvlhigh = [1.272]
 
 
-_key = '2NL6HNU6-HFH00OHK-LD7P59LC-D6D4HBOA'
-_sign = 'dcb635c3eb2934b414afba1af0cf661b8dcc63539836568847716089e8832dac774dcb43a8bc2f75965fe7e766e30b73ee1b8915144074350fd937cdc6a71dea'
-
-
 
 def mainv2(_key, _sign, *args):
     link_api = "https://poloniex.com/tradingApi"
